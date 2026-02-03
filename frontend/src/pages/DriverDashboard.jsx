@@ -3,7 +3,7 @@ import { useAuth } from '../contexts/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
 import { Switch } from "@/components/ui/switch";
-import { LogOut, MapPin, User, DollarSign, Bell, Shield, CheckCircle, Navigation, Phone, Lock } from 'lucide-react';
+import { LogOut, Shield, CheckCircle, Phone, Lock } from 'lucide-react';
 import { db } from '../services/firebase';
 import { collection, query, where, onSnapshot, doc, updateDoc } from 'firebase/firestore';
 
